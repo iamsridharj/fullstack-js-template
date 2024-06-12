@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button matches snapshot 1`] = `
+<DocumentFragment>
+  <button
+    aria-label="btn"
+    class="sc-beySPh csGrps"
+    role="button"
+    tabindex="0"
+    type="button"
+  >
+    Click me
+  </button>
+</DocumentFragment>
+`;

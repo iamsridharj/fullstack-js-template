@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card Component matches snapshot 1`] = `
+<DocumentFragment>
+  <article
+    class="sc-beySPh cexEpP"
+    data-testid="cardWrapper"
+  >
+    Test Content
+  </article>
+</DocumentFragment>
+`;

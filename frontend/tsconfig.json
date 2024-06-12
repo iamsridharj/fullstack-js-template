@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "types": ["jest", "@testing-library/jest-dom"],
+    "paths": {
+      "@design-system/ui-kit": ["src/design-system/components"],
+      "@design-system/ui-kit/types": [
+        "src/design-system/components/types.d.ts"
+      ],
+      "@design-system/typography": ["src/design-system/foundation/typography"],
+      "@design-system/assets": ["src/design-system/assets"],
+      "@design-system/breakpoints": ["src/design-system/foundation/breakpoints"]
+    }
+  },
+  "files": ["globals.d.ts"],
+  "include": ["./src/**/**/**/*", "globals.d.ts"]
+}

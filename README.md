@@ -60,4 +60,20 @@ Ensure you have the following installed:
    │   └── tests/        # Unit tests
    │   └── utils/        # Utilities function
    │   └── configs/        # Base Config, Database Config, Logger Config.....
+
+   ├── frontend/          # Express server and backend code
+   │   ├── public        # host static contents
+   │   ├── src        # Express Application
+   │     ├── design-system  #UI component and design principles for the website
+            ├── assets  #Icons
+            ├── components  #Small UI blocks
+            ├── foundations
+               ├── breakpoints  #Styled components definition of screen breakpoints
+               ├── colors
+               ├── typography
+   │   ├── hooks        # reusable react logic
+   │   ├── pages
+   │   ├── utils
+   │   ├── App.tsx
+   │   ├── index.tsx
    ```
